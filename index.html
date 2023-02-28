@@ -4,102 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Validation</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https:kit.fontawesome.com/4e229cf0e9.js"></script>
-    <link rel="stylesheet" href="./style.css" />
-    <script defer src="./index.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <form id="form" action="/">
-        <h1>FORM</h1>
-        <div class="input-control">
-          <label id="labelN" for="username">username</label>
-          <i class="icon fa regular fa-user key"></i>
-          <input
-            id="username"
-            name="username"
-            type="text"
-            placeholder="Username"
-          />
-
-          <div class="error"></div>
-          <div class="success"></div>
-        </div>
-
-        <div class="input-control">
-          <div class="inputBox"></div>
-          <label id="labelN" for="email">email</label>
-          <i class="icon fa fa-envelope"></i>
-          <input id="email" name="email" type="text" placeholder="E-Mail" />
-          <div class="error"></div>
-          <div class="success"></div>
-        </div>
-
-        <div class="input-control">
-          <div class="inputBox"></div>
-          <label id="labelN" for="password">password</label>
-          <i class="icon fa-solid fa-key"></i>
-          <input
-            id="password"
-            name="password"
-            type="password"
-            placeholder="Password"
-          />
-          <div class="error"></div>
-          <div class="success"></div>
-        </div>
-        <div class="county1">
-          <select title="country" name="country" id="country">
-            <option value="Country">Country</option>
-            <option value="Country1">Country1</option>
-            <option value="Country2">Country2</option>
-            <option value="Country3">Country3</option>
-          </select>
-          <div class="error"></div>
-        </div>
-
-        <h2>Level of development</h2>
-
-        <div class="mainBorder">
-          <div class="border">
-            <input placeholder="radio" type="radio" name="title" />
-            <label>Basic</label>
-          </div>
-          <div class="border">
-            <input placeholder="radio" type="radio" name="title" />
-            <label>Medium</label>
-          </div>
-          <div class="border">
-            <input placeholder="radio" type="radio" name="title" />
-            <label>Advanced</label>
-          </div>
-        </div>
-
-        <h2>Programming skills</h2>
-        <div class="mainBorder">
-          <div class="border">
-            <input placeholder="checkbox" type="checkbox" name="checkbox" />
-            <label>Java</label>
-          </div>
-          <div class="border">
-            <input placeholder="checkbox" type="checkbox" name="checkbox" />
-            <label>Python</label>
-          </div>
-          <div class="border">
-            <input placeholder="checkbox" type="checkbox" name="checkbox" />
-            <label>JavaScript</label>
-          </div>
-        </div>
-
-        <button type="submit">Sign Up</button>
-      </form>
+    <div class="game">
+      <div id="dinosaur">
+        <img class="dinosaurImg" src="dinosaur2.png" alt="" />
+      </div>
+      <div id="cactus">
+        <img class="cactusImg" src="cactus.png" alt="" />
+      </div>
+      <div class="floor"></div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
